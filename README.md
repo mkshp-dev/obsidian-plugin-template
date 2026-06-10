@@ -1,6 +1,6 @@
-# Obsidian Sample Plugin
+# Obsidian Template Plugin
 
-This is a sample plugin for Obsidian (https://obsidian.md).
+This is a template plugin for Obsidian (https://obsidian.md).
 
 This project uses TypeScript to provide type checking and documentation.
 The repo depends on the latest plugin API (obsidian.d.ts) in TypeScript Definition format, which contains TSDoc comments describing what it does.
@@ -30,7 +30,7 @@ Quick starting guide for new plugin devs:
 
 - Update your `manifest.json` with your new version number, such as `1.0.1`, and the minimum Obsidian version required for your latest release.
 - Update your `versions.json` file with `"new-plugin-version": "minimum-obsidian-version"` so older versions of Obsidian can download an older version of your plugin that's compatible.
-- Create new GitHub release using your new version number as the "Tag version". Use the exact version number, don't include a prefix `v`. See here for an example: https://github.com/obsidianmd/obsidian-sample-plugin/releases
+- Create new GitHub release using your new version number as the "Tag version". Use the exact version number, don't include a prefix `v`. See here for an example: https://github.com/obsidianmd/obsidian-template-plugin/releases
 - Upload the files `manifest.json`, `main.js`, `styles.css` as binary attachments. Note: The manifest.json file must be in two places, first the root path of your repository and also in the release.
 - Publish the release.
 
@@ -89,6 +89,54 @@ If you have multiple URLs, you can also do:
 }
 ```
 
+📘 **[Full Documentation](https://mkshp-dev.github.io/obsidian-template-plugin/)** - Read the complete guide for features, configuration, and usage.
+
 ## API Documentation
 
 See https://github.com/obsidianmd/obsidian-api
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Please see our `CONTRIBUTING.md` for details.
+
+### Development Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/mkshp-dev/obsidian-template-plugin.git
+cd obsidian-template-plugin
+
+# Install dependencies
+npm install
+
+# Start development build
+npm run dev
+
+# Build for production
+npm run build
+```
+
+---
+
+## Support
+If this project helps your workflow, consider supporting its development with a ☕
+
+<a href="https://www.buymeacoffee.com/mkshp" target="_blank">
+  <img
+    src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=%E2%98%95&slug=mkshp&button_colour=5F7FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00"
+    alt="Buy me a coffee"
+    height="45"
+  />
+</a>
+
+<br/>
+
+<a href="https://github.com/sponsors/mkshp-dev" target="_blank">
+  <img
+    src="https://img.shields.io/badge/Sponsor-GitHub-ea4aaa?logo=github-sponsors&style=flat-square"
+    alt="Sponsor mkshp-dev on GitHub"
+    height="32"
+  />
+</a>
